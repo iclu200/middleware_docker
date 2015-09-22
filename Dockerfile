@@ -11,8 +11,8 @@ RUN yum update -y && \
 RUN mkdir -p /middleware && \
     cd /middleware && \
     wget https://s3-ap-northeast-1.amazonaws.com/itrimiddleware/middleware_20150819.zip && \
-    unzip ./middleware.zip && \
-    rm middleware.zip
+    unzip ./middleware_20150819.zip && \
+    rm middleware_20150819.zip
 
 EXPOSE 1099 8082 8852 8853 8854
 
