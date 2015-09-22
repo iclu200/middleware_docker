@@ -1,6 +1,6 @@
 FROM centos
 
-MAINTAINER iiichtang
+MAINTAINER iclu200(iclu200@gmail.com)
 
 RUN yum update -y && \
     yum install -y java-1.8.0 \
